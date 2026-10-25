@@ -1,0 +1,10 @@
+.venv*/
+__pycache__/
+*.py[cod]
+.env*
+.modal.toml
+.DS_Store
+.upstream/
+util/
+llm-agent-collusion/*
+!llm-agent-collusion/results/

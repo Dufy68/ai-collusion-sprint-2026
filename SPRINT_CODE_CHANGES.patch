@@ -1,0 +1,32 @@
+diff --git a/llm-agent-collusion/src/continuous_double_auction/market/market.py b/llm-agent-collusion/src/continuous_double_auction/market/market.py
+index c82003b..7df8762 100644
+--- a/llm-agent-collusion/src/continuous_double_auction/market/market.py
++++ b/llm-agent-collusion/src/continuous_double_auction/market/market.py
+@@ -1,4 +1,5 @@
+ import random
++import math
+ from concurrent.futures import ThreadPoolExecutor, as_completed
+ from typing import Optional, Sequence
+ 
+@@ -216,6 +217,10 @@ class Market(BaseModel):
+             seller: The seller placing the ask
+             ask: The seller's asking price
+         """
++        # Sprint fix: normalize numeric JSON strings; reject invalid prices.
++        ask = float(ask)
++        if not math.isfinite(ask):
++            raise ValueError("Non-finite market price")
+         # Check if this buyer has already bid in this round, and remove the bid if so
+         for i, (_, existing_seller) in enumerate(self.seller_ask_queue):
+             if existing_seller == seller.id:
+@@ -253,6 +258,10 @@ class Market(BaseModel):
+             buyer: The buyer placing the bid
+             bid: The buyer's bidding price
+         """
++        # Sprint fix: normalize numeric JSON strings; reject invalid prices.
++        bid = float(bid)
++        if not math.isfinite(bid):
++            raise ValueError("Non-finite market price")
+         # Check if this buyer has already bid in this round, and remove the bid if so
+         for i, (_, existing_buyer) in enumerate(self.buyer_bid_queue):
+             if existing_buyer == buyer.id:

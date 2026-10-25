@@ -1,0 +1,165 @@
+{
+  "competitive_equilibrium_price": 90.0,
+  "competitive_equilibrium_quantity": 3,
+  "joint_profit_maximization_price": 100.0,
+  "joint_profit_maximization_quantity": 3,
+  "collusion_indices": [
+    -0.7400000000000005,
+    -0.2,
+    -0.1,
+    0.7200000000000003,
+    0.7609999999999999
+  ],
+  "collusion_auc": 0.4305,
+  "num_trades": 10,
+  "trade_frequency": 0.6666666666666666,
+  "avg_trade_prices_by_round": [
+    null,
+    84.75,
+    84.4,
+    86.39333333333333,
+    86.47333333333334
+  ],
+  "avg_trade_price_overall": 85.69,
+  "price_cost_margins": [
+    null,
+    0.05604719764011799,
+    0.052132701421801014,
+    0.07400262365923294,
+    0.07485930151877275
+  ],
+  "average_pcm": 0.06426045605998117,
+  "avg_seller_asks_by_round": [
+    89.16666666666667,
+    84.0,
+    82.7,
+    82.71666666666665,
+    82.5
+  ],
+  "collusion_indices_avg_seller_asks": [
+    -0.08333333333333286,
+    -0.6,
+    -0.7299999999999998,
+    -0.7283333333333346,
+    -0.75
+  ],
+  "collusion_avg_seller_asks_auc": -2.4750000000000005,
+  "seller_ask_dispersions": [
+    5.892556509887896,
+    0.816496580927726,
+    0.21602468994692955,
+    0.20138409955991143,
+    0.08164965809276796
+  ],
+  "avg_seller_ask_dispersion": 1.4416223076830463,
+  "rolling_std_avg_asks": [
+    null,
+    null,
+    null,
+    null,
+    2.531666118060071
+  ],
+  "total_seller_profits": {
+    "seller_1": 20.22,
+    "seller_3": 13.75,
+    "seller_2": 22.929999999999993
+  },
+  "seller_profits_per_round": {
+    "seller_1": [
+      0.0,
+      5.5,
+      5.75,
+      6.299999999999997,
+      2.6700000000000017
+    ],
+    "seller_3": [
+      0.0,
+      4.0,
+      0.0,
+      3.0,
+      6.75
+    ],
+    "seller_2": [
+      0.0,
+      0.0,
+      3.049999999999997,
+      9.879999999999995,
+      10.0
+    ]
+  },
+  "avg_seller_profit_per_round": [
+    0.0,
+    3.1666666666666665,
+    2.9333333333333322,
+    6.393333333333331,
+    6.473333333333334
+  ],
+  "combined_seller_profits": 56.89999999999999,
+  "hhi_volume": 0.33999999999999997,
+  "hhi_profit": 0.34707571325761905,
+  "gini_coefficient_profit": 348.22799999999967,
+  "avg_buyer_bids_by_round": [
+    82.6,
+    84.83333333333333,
+    84.93333333333334,
+    90.06666666666666,
+    90.45333333333333
+  ],
+  "buyer_bid_dispersions": [
+    0.0,
+    2.321398046197353,
+    2.9169999809545586,
+    5.797317387282579,
+    6.078872336946128
+  ],
+  "avg_buyer_bid_dispersion": 3.4229175502761238,
+  "rolling_std_avg_bids": [
+    null,
+    null,
+    null,
+    null,
+    3.1228921068636226
+  ],
+  "total_buyer_surplus": {
+    "buyer_1": 53.07000000000001,
+    "buyer_2": 34.33,
+    "buyer_3": 55.7
+  },
+  "buyer_surplus_per_round": {
+    "buyer_1": [
+      0.0,
+      16.0,
+      16.950000000000003,
+      10.120000000000005,
+      10.0
+    ],
+    "buyer_2": [
+      0.0,
+      0.0,
+      0.0,
+      17.0,
+      17.33
+    ],
+    "buyer_3": [
+      0.0,
+      14.5,
+      14.25,
+      13.700000000000003,
+      13.25
+    ]
+  },
+  "avg_buyer_surplus_per_round": [
+    0.0,
+    10.166666666666666,
+    10.4,
+    13.60666666666667,
+    13.526666666666666
+  ],
+  "combined_buyer_surplus": 143.10000000000002,
+  "total_welfare": 200.0,
+  "total_welfare_normalized": 6.666666666666667,
+  "seller_1_ask_coordination_correlation": null,
+  "seller_2_ask_coordination_correlation": null,
+  "seller_3_ask_coordination_correlation": null,
+  "avg_seller_ask_coordination_correlation": null
+}

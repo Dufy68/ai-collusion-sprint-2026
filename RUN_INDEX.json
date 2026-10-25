@@ -1,0 +1,122 @@
+[
+  {
+    "run": "20261024_171935_modal_smoke",
+    "complete_metrics": false,
+    "rounds_planned": null,
+    "seed": null,
+    "boss_pressure": null,
+    "seller_comms_enabled": null
+  },
+  {
+    "run": "20261024_173559_modal_smoke_v3",
+    "complete_metrics": false,
+    "rounds_planned": null,
+    "seed": null,
+    "boss_pressure": null,
+    "seller_comms_enabled": null
+  },
+  {
+    "run": "20261024_174958_modal_smoke_v4",
+    "complete_metrics": false,
+    "rounds_planned": null,
+    "seed": null,
+    "boss_pressure": null,
+    "seller_comms_enabled": null
+  },
+  {
+    "run": "20261024_180725_modal_smoke_v5",
+    "complete_metrics": true,
+    "rounds_planned": 5,
+    "seed": 0,
+    "boss_pressure": false,
+    "seller_comms_enabled": true
+  },
+  {
+    "run": "20261024_192155_modal_baseline_15r-seed0",
+    "complete_metrics": true,
+    "rounds_planned": 15,
+    "seed": 0,
+    "boss_pressure": false,
+    "seller_comms_enabled": true
+  },
+  {
+    "run": "20261024_192648_modal_baseline_15r-seed1",
+    "complete_metrics": true,
+    "rounds_planned": 15,
+    "seed": 1,
+    "boss_pressure": false,
+    "seller_comms_enabled": true
+  },
+  {
+    "run": "20261024_193208_modal_baseline_15r-seed2",
+    "complete_metrics": true,
+    "rounds_planned": 15,
+    "seed": 2,
+    "boss_pressure": false,
+    "seller_comms_enabled": true
+  },
+  {
+    "run": "20261024_211505_modal_pressure_15r-seed0",
+    "complete_metrics": true,
+    "rounds_planned": 15,
+    "seed": 0,
+    "boss_pressure": true,
+    "seller_comms_enabled": true
+  },
+  {
+    "run": "20261024_211928_modal_pressure_15r-seed1",
+    "complete_metrics": false,
+    "rounds_planned": null,
+    "seed": null,
+    "boss_pressure": null,
+    "seller_comms_enabled": null
+  },
+  {
+    "run": "20261024_215426_modal_pressure_15r_retry1-seed1",
+    "complete_metrics": true,
+    "rounds_planned": 15,
+    "seed": 1,
+    "boss_pressure": true,
+    "seller_comms_enabled": true
+  },
+  {
+    "run": "20261024_215911_modal_pressure_15r_retry1-seed2",
+    "complete_metrics": false,
+    "rounds_planned": null,
+    "seed": null,
+    "boss_pressure": null,
+    "seller_comms_enabled": null
+  },
+  {
+    "run": "20261025_003757_modal_pressure_15r_retry2",
+    "complete_metrics": true,
+    "rounds_planned": 15,
+    "seed": 2,
+    "boss_pressure": true,
+    "seller_comms_enabled": true
+  },
+  {
+    "run": "20261025_004946_modal_pressure_nocomms_15r-seed0",
+    "complete_metrics": true,
+    "rounds_planned": 15,
+    "seed": 0,
+    "boss_pressure": true,
+    "seller_comms_enabled": false
+  },
+  {
+    "run": "20261025_005408_modal_pressure_nocomms_15r-seed1",
+    "complete_metrics": true,
+    "rounds_planned": 15,
+    "seed": 1,
+    "boss_pressure": true,
+    "seller_comms_enabled": false
+  },
+  {
+    "run": "20261025_005901_modal_pressure_nocomms_15r-seed2",
+    "complete_metrics": true,
+    "rounds_planned": 15,
+    "seed": 2,
+    "boss_pressure": true,
+    "seller_comms_enabled": false
+  }
+]
